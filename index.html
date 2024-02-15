@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SnapServe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="book.html">BOOK TABLE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>SnapServe</h1>
+    <p>Experience the ease of ordering your favorite meals, scheduling appointments, and accessing services with just a snap.<br>Our user-friendly interface and intuitive features make SnapServe your ultimate digital companion.</p>
+    <a href="" class="hero-btn">Deployed Project Application</a>
+</div>
+
+</section>
+
+<!-------- Feature Section -------->
+<section class="features">
+    <h1>Feature Section</h1>
+    <p>The landing page highlights 3 key features.</p>
+    
+    <div class="row">
+        <div class="features-col">
+            <img src="images/delivery.jpeg">
+            <h3>Quick Food Delivery</h3>
+            <p>SnapServe offers a seamless food delivery experience. Browse through a variety of cuisines, place your order, and have delicious meals delivered right to your doorstep.</p>
+        </div>
+        <div class="features-col">
+            <img src="images/recipe.jpeg">
+            <h3>Recipe Explorer</h3>
+            <p>Explore a world of culinary delights with SnapServe's Recipe Explorer. Discover new recipes, step-by-step cooking instructions, and unleash your inner chef.</p>
+        </div>
+        <div class="features-col">
+            <img src="images/smart.jpeg">
+            <h3>Smart Suggestions</h3>
+            <p>SnapServe learns your preferences over time and provides personalized recommendations. From favorite dishes to tailored cooking tips, SnapServe enhances your culinary experience.</p>
+        </div>
+    </div>
+</section>
+
+<!--------- About Section----------->
+
+<section class="about">
+    <h1>About Section</h1>
+    <p>SnapServe was born out of a genuine passion for simplifying the culinary experience. As an avid food enthusiast, I found myself inspired to create a platform that seamlessly connects people with delightful food experiences. The journey began as a personal quest to enhance the way we discover, order, and enjoy food.</p>
+
+    <div class="row">
+        <div class="about-col">
+            <img src="images/b3.jpeg">
+            <div class="layer">
+                <h3>KATSINA</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="images/a1.jpeg">
+            <div class="layer">
+                <h3>Batagarawa</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="images/a2.jpeg">
+            <div class="layer">
+                <h3>Dutsin-ma</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------- developer ------>
+
+<section class="developer">
+    <h1>Meet the Developer</h1>
+    <p>SnapServe is not just a project; it's a journey fueled by a genuine love for food and technology.</p>
+
+    <div class="row">
+        <div class="developer-col">
+            <a href="https://www.linkedin.com/in/umar-muhammad-sani/" class="hero-btn red-btn">LinkedIn</a>
+        </div>
+        <div class="developer-col">
+            <a href="https://github.com/UmarMsani" class="hero-btn red-btn">Github</a>
+        </div>
+        <div class="developer-col">
+            <a href="https://twitter.com/umuhammad11" class="hero-btn red-btn">Twitter profile</a>
+        </div>
+        <div class="developer-col">
+            <a href="https://github.com/UmarMsani/Landing-page" class="hero-btn red-btn">Github project repository</a>
+        </div>
+    </div>
+</section>
+
+<!-----------video---------->
+
+<section class="video">
+    <h2>Project Video</h2>
+    <!-- Replace the following line with the actual video embed code -->
+    <video width="640" height="360" controls>
+        <source src="your-video-source.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+<!-------Footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+        <p>SnapServe was born out of a mission to redefine the service landscape. We believe in the power of seamless, instant solutions that effortlessly integrate into your routine.<br>Whether you're looking to order food, schedule appointments, or access a range of services, SnapServe is your go-to companion</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-github"></i>
+        </div>
+        &copy; 2024 SnapServe. All rights reserved.
+</section>
+
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

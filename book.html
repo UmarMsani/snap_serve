@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SnapServe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="book.html">BOOK TABLE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu"></i>
+    </nav>
+    <h1>Book Table</h1>
+</section>
+
+<!---------- Booking ---------->
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div class="features-col">
+                <img src="images/table1.jpeg">
+            </div>
+            <div class="features-col">
+                <img src="images/table2.jpeg">
+            </div>
+            <div class="features-col">
+                <img src="images/table3.jpeg">
+            </div>
+        </div>
+<div class="contact-col">
+
+    <form action="#" method="post" onsubmit="return displayAlert(this)">
+        <input type="text" placeholder="Enter Your name" required>
+        <input type="email" placeholder="Enter email address" required>
+        <input type="text" placeholder="Enter phone number" required>
+        <input type="text" placeholder="Enter Your subject" required>
+        <select id="persons" name="persons">
+        <option value="" selected disabled>Select</option>
+        <option value="2">2 persons</option>
+        <option value="3">3 persons</option>
+        <option value="4">4 persons</option>
+      </select>
+        <textarea rows="8" placeholder="Message" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Book Table</button>
+    </form>
+
+
+</div>
+    </div>
+
+</section>
+
+<!-------Footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+        <p>SnapServe was born out of a mission to redefine the service landscape. We believe in the power of seamless, instant solutions that effortlessly integrate into your routine.<br>Whether you're looking to order food, schedule appointments, or access a range of services, SnapServe is your go-to companion</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-github"></i>
+        </div>
+        &copy; 2024 SnapServe. All rights reserved.
+</section>
+
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+    function displayAlert(form) {
+            alert('Table booked successfully!\n(Thank you for booking table with us)');
+            form.reset();
+            return false;
+        }
+
+</script>
+
+</body>
+</html>

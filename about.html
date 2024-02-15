@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SnapServe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="book.html">BOOK TABLE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<!---------- about us content ---------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are SnapServe</h1>
+            <p>Welcome to SnapServe, where culinary artistry meets customer delight. We are more than just a restaurant; we are a community that values<br>exceptional dining experiences. Our mission is to create moments of joy through our carefully crafted dishes and warm hospitality.</p>
+            <p>At SnapServe, we believe in using only the freshest ingredients to ensure that every bite is a burst of flavor. Our chefs are passionate about their craft, bringing innovation to traditional recipes and creating a menu that caters to diverse palates.</p>
+            <p>Our journey began with a vision to redefine the dining landscape, blending the richness of tradition with the excitement of contemporary cuisine. Over the years, we have evolved, but our commitment to excellence remains unwavering.</p>
+            <p>Values such as quality, integrity, and community drive everything we do. We take pride in providing a space where friends and family can come together to savor delicious food and create lasting memories.</p>
+            <p>Thank you for being a part of our story. We look forward to serving you and making each dining experience with us truly special.</p>
+            <a href="contact.html" class="hero-btn red-btn">CONTACT US</a>
+        </div>
+        <div class="about-col">
+            <img src="images/a4.jpeg">
+        </div>
+    </div>
+
+</section>
+
+
+<!-------Footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+        <p>SnapServe was born out of a mission to redefine the service landscape. We believe in the power of seamless, instant solutions that effortlessly integrate into your routine.<br>Whether you're looking to order food, schedule appointments, or access a range of services, SnapServe is your go-to companion</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-github"></i>
+        </div>
+        &copy; 2024 SnapServe. All rights reserved.
+</section>
+
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
