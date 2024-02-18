@@ -64,7 +64,7 @@
         </div>
 <div class="contact-col">
 
-    <form action="form-handler.php" method="post">
+    <form action="#" method="post" onsubmit="return displayAlert(this)">
         <input type="text" name="name" placeholder="Enter Your name" required>
         <input type="email" name="email" placeholder="Enter email address" required>
         <input type="text" name="subject" placeholder="Enter Your subject" required>
@@ -105,6 +105,12 @@
     function hideMenu(){
         navLinks.style.right = "-200px";
     }
+
+    function displayAlert(form) {
+            alert('Message sent successfully!\n(Thank you for contacting us)');
+            form.reset();
+            return false;
+        }
 
 </script>
 
