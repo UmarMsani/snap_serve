@@ -79,4 +79,4 @@ Open your web browser and go to http://localhost:5000/ to embark on your food jo
 Contributions are welcome! Please follow the contribution guidelines when making changes.
 
 ## Licensing
-SnapServe is licensed under the MIT License.
+SnapServe is licensed under the [MIT License.](https://github.com/UmarMsani/snap_serve/blob/main/LICENSE)
