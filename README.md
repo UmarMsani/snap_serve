@@ -76,7 +76,9 @@ Open your web browser and go to http://localhost:5000/ to embark on your food jo
 
 # Contributing
 
-Contributions are welcome! Please follow the contribution guidelines when making changes.
+Contributions to SnapServe are welcome! We appreciate your interest in making SnapServe better.
+Before contributing, please read our [Contributing Guidelines](CONTRIBUTING.md) to understand the process for submitting pull requests, reporting issues, and more.
+Thank you for contributing to SnapServe!
 
 ## Licensing
 SnapServe is licensed under the [MIT License.](https://github.com/UmarMsani/snap_serve/blob/main/LICENSE)
