@@ -82,3 +82,15 @@ Thank you for contributing to SnapServe!
 
 ## Licensing
 SnapServe is licensed under the [MIT License.](https://github.com/UmarMsani/snap_serve/blob/main/LICENSE)
+
+## screenshot of the app.
+
+# login page
+![image](https://github.com/UmarMsani/snap_serve/assets/125450387/fe95944f-0929-4368-ac8a-516a1a30330d)
+
+# registeration page
+![image](https://github.com/UmarMsani/snap_serve/assets/125450387/51ba6534-6620-4a0e-bf1d-6eb2be69c501)
+
+# menu
+![image](https://github.com/UmarMsani/snap_serve/assets/125450387/0af8daf6-c0a9-4ae1-b4b7-4acb247845d7)
+
